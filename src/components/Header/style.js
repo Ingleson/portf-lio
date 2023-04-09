@@ -7,10 +7,10 @@ export const Container = styled.div`
   align-items: center;
   width: 100%;
   height: 76px;
-  padding: 0 4rem;
+  padding: 0 7%;
 
 
-  background-color: #F1F3F5;
+  background-color: #10041c;
 
   @media (max-width: 600px) {
     padding: 0 20px;
@@ -37,6 +37,7 @@ export const Container = styled.div`
     p {
       font-size: 20px;
       font-style: italic;
+      color: #fff;
     }
   }  
   .social-box {
@@ -51,7 +52,7 @@ export const Container = styled.div`
     .wpp {
       border: none;
       border-radius: 4px;
-      background-color: #5C63ED;
+      background-color: #00BFFF;
       color: #fff;
       font-size: 16px;
       padding: 10px;
@@ -69,19 +70,22 @@ export const Container = styled.div`
       transform: scale(1.5);
     }
 
-    .gh {
+    .gh, .lk {
 
       svg {
-        color: #000;
+        color: #fff;
       }
     }
   }
   span {
     display: none;
 
+    svg {
+      color: #fff;
+    }
+
     @media (max-width: 600px) {
       display: flex;
-      
     }
   }
 `
