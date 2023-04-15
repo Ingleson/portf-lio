@@ -18,6 +18,7 @@ export const ContainerAboutMe = styled.div`
 
     @media (max-width: 600px) {
       width: 100%;
+      padding-top: 3rem;
     }
 
     i, h1, h2, p {
@@ -42,6 +43,11 @@ export const ContainerAboutMe = styled.div`
     display: flex;
     gap: 20px;
 
+    @media (max-width: 600px) {
+      flex-direction: column;
+      width: 100%;
+    }
+
     a {
       background-color: #fff;
       color: #00BFFF;
@@ -49,6 +55,12 @@ export const ContainerAboutMe = styled.div`
       border-radius: 4px;
       text-decoration: none;
       font-weight: 700;
+
+      @media (max-width: 600px) {
+        display: flex;
+        justify-content: center;
+      }
+
 
       :hover {
         text-decoration: underline;

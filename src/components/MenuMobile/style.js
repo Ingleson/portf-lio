@@ -17,7 +17,7 @@ export const ContainerMenuMobile = styled.div`
   margin-top: 0;
 
   background: rgb(51,51,51);
-  background: linear-gradient(360deg, rgba(51,51,51,1) 0%, rgba(69,68,68,1) 38%, rgba(129,127,127,0.9304096638655462) 100%);
+  background: linear-gradient(360deg, rgba(13,3,22,1) 0%, rgba(16,4,28,1) 38%, rgba(20,5,35,0.9304096638655462) 100%);
 
   opacity: 0;
   pointer-events: none;
@@ -29,7 +29,7 @@ export const ContainerMenuMobile = styled.div`
     pointer-events: auto;
     transition: 0.5s;
     
-    animation: fadeInUp 1s;
+    animation: fadeInDown 1s;
 
     .close {
       animation: rotateIn 1.2s;
@@ -41,6 +41,7 @@ export const ContainerMenuMobile = styled.div`
     top: 1rem;
     right: 1rem;
     transition: .5s;
+    color: #fff;
   }
 
   nav {
@@ -68,7 +69,7 @@ export const ContainerMenuMobile = styled.div`
       color: #0e76a8;
     }
     .gh {
-      color: #000;
+      color: #fff;
     }
 
   }

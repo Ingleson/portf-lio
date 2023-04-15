@@ -66,8 +66,12 @@ export const Container = styled.div`
       }
     }
 
+    a {
+      transition: 500ms;
+    }
     a:hover {
       transform: scale(1.5);
+      transition: .5s;
     }
 
     .gh, .lk {
