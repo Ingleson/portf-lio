@@ -11,8 +11,8 @@ const AboutMe = () => {
         <p><i>Participei de inumeros projetos desenvolvendo minhas habilidades e expandindo meu conhecimento, estudando em um ambiente que simulava o profissional o que me tornou capacitado para lidar com diversos problemas e me adaptar.</i></p>
 
         <div className="btn-box">
-          <a href="">Projetos</a>
-          <a href="">Tecnologias</a>
+          <a href="#projects">Projetos</a>
+          <a href="#technologies">Tecnologias</a>
         </div>
       </div>
     </ContainerAboutMe>
