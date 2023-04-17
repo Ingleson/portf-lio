@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe"
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Main from "./components/Main"
 import MenuMobile from "./components/MenuMobile"
@@ -15,6 +16,7 @@ function App() {
       <AboutMe/>
       <ToolsList/>
       <Main/>
+      <Footer/>
     </div>
   )
 }

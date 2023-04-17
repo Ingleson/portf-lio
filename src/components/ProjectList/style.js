@@ -59,12 +59,12 @@ export const ContainerProject = styled.section`
       
       
       span {
-        background-color: #00BFFF;
+        background-color: #10041c;
         color: #fff;
         font-size: 12px;
         font-style: italic;
-        text-shadow: 2px 2px 3px #000;
         padding: 5px;
+        border: .5px solid #00BFFF;
         border-radius: 10px;
       }
     }
